@@ -58,19 +58,32 @@ body {
 }
 
 .covid-banner {
-    background: #FFF;
+    background: #c5c4c3;
+    background-image: url('./assets/img/covid-draw.png');
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: 2em -2em;
     max-width: 60em;
+    min-height: 10em;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;    
 }
 
 .banner-text {
-    max-width: 13em;
+    max-width: 15em;
+    max-height: 7em;
+    padding: 1em;
     margin: 1em 3em;
+    background: #282626;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-text h2 {
+    color: #eae2d9;
     font-size: .9em;
     text-transform: uppercase;
     font-weight: bold;
@@ -89,6 +102,7 @@ body {
     max-width: 23em;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .covid-disclaimer p {
