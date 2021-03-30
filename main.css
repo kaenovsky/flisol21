@@ -1,0 +1,99 @@
+/* import open sans font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: #282626;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.header {    
+    background: #eae2d9;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.header img {
+    width: 4em;
+    margin: 2em 0;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: .5em;
+}
+
+.btn {
+    font-size: .5em;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: .5em 1em;
+    margin: .6em;
+}
+
+.btn-navbar {
+    background: #ea5532;
+    color: #18171a;
+}
+
+.btn-navbar:hover {
+    background: #18171a;
+    color: #ea5532;
+}
+
+.btn-sign {
+    background: transparent;
+    border: 2px solid #ea5532; 
+    color: #ea5532; 
+}
+
+.btn-sign:hover {
+    background: #ea5532;
+    color: #FFF; 
+}
+
+.covid-banner {
+    background: #FFF;
+    max-width: 60em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;    
+}
+
+.banner-text {
+    max-width: 13em;
+    margin: 1em 3em;
+}
+
+.banner-text h2 {
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-img {
+    max-width: 25em;
+    margin: 1em 3em;
+}
+
+.banner-img img {
+    width: 5em;
+}
+
+.covid-disclaimer {
+    max-width: 23em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.covid-disclaimer p {
+    color: #eae2d9;
+    font-size: .6em;
+    text-align: center;
+    padding: 0 1.7em;
+}
