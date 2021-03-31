@@ -89,6 +89,13 @@ body {
     font-weight: bold;
 }
 
+.link-art {
+    font-size: .3em;
+    color: #eae2d9;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
 .banner-img {
     max-width: 25em;
     margin: 1em 3em;
@@ -110,4 +117,59 @@ body {
     font-size: .6em;
     text-align: center;
     padding: 0 1.7em;
+}
+
+.tracks {
+    background: #eae2d9;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.tracks h3 {
+    font-size: .7em;
+    background: #ea5532;
+    padding: 1em;
+}
+
+table {
+    max-width: 60em;
+    margin: 0 auto;
+    font-size: .5em;
+    margin-bottom: 1em;
+}
+
+/* Tabla */
+
+table.minimalistBlack {
+    border: 3px solid #EA5532;
+    background-color: #EAE2D9;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.minimalistBlack td,
+table.minimalistBlack th {
+    border: 1px solid #EA5532;
+    padding: 5px 4px;
+}
+
+table.minimalistBlack tbody td {
+    font-size: 13px;
+}
+
+table.minimalistBlack thead {
+    background: #282626;
+    border-bottom: 3px solid #EA5532;
+}
+
+table.minimalistBlack thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #EA5532;
+    text-align: left;
+}
+
+table.minimalistBlack tfoot td {
+    font-size: 14px;
 }
