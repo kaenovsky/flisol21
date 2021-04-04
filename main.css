@@ -132,7 +132,6 @@ body {
 }
 
 table {
-    max-width: 60em;
     margin: 0 auto;
     font-size: .5em;
     margin-bottom: 1em;
@@ -143,7 +142,7 @@ table {
 table.minimalistBlack {
     border: 3px solid #EA5532;
     background-color: #EAE2D9;
-    width: 100%;
+    width: 90%;
     text-align: left;
     border-collapse: collapse;
 }
@@ -172,4 +171,33 @@ table.minimalistBlack thead th {
 
 table.minimalistBlack tfoot td {
     font-size: 14px;
+}
+
+/* videos en vivo */
+
+.videos-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: .9em;
+}
+
+.videos-wrapper h2 {
+    font-size: .6em;
+    text-align: center;
+    background: #ea5532;
+    color: #282626;
+    padding: .6em 2em;
+}
+
+.iframe-wrapper {
+    width: 20em;
+    margin: .6em;
+}
+
+.title-video {
+    font-size: .7em;
+    text-align: center;
+    color: #eae2d9;
+    text-transform: uppercase;
 }
