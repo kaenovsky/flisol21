@@ -182,12 +182,14 @@ table.minimalistBlack tfoot td {
     margin: .9em;
 }
 
-.videos-wrapper h2 {
+.transmisiones h2 {
+    margin: 0 auto;
     font-size: .6em;
     text-align: center;
     background: #ea5532;
     color: #282626;
     padding: .6em 2em;
+    max-width: 6em;
 }
 
 .iframe-wrapper {
