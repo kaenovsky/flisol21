@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.header {    
+.header {
     background: #eae2d9;
     display: flex;
     flex-flow: row nowrap;
@@ -46,15 +46,36 @@ body {
     color: #ea5532;
 }
 
+.btn-discord {
+    background: #eae2d9;
+    color: #7289da;
+    font-size: .8em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 13em;
+    margin: 0 auto;
+}
+
+.btn-discord:hover {
+    background: #7289da;
+    color: #eae2d9;
+}
+
+.btn-discord:hover img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(99%) saturate(3%) hue-rotate(359deg) contrast(100%);
+}
+
 .btn-sign {
     background: transparent;
-    border: 2px solid #ea5532; 
-    color: #ea5532; 
+    border: 2px solid #ea5532;
+    color: #ea5532;
 }
 
 .btn-sign:hover {
     background: #ea5532;
-    color: #FFF; 
+    color: #FFF;
 }
 
 .covid-banner {
@@ -67,7 +88,7 @@ body {
     min-height: 10em;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .banner-text {
@@ -182,7 +203,7 @@ table.minimalistBlack tfoot td {
     margin: .9em;
 }
 
-.transmisiones h2 {
+#transmisiones h2 {
     margin: 0 auto;
     font-size: .6em;
     text-align: center;
@@ -201,5 +222,28 @@ table.minimalistBlack tfoot td {
     font-size: .7em;
     text-align: center;
     color: #eae2d9;
+    text-transform: uppercase;
+}
+
+.discord-banner {
+    max-width: 30em;
+    max-height: 10em;
+    font-size: .7em;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    color: #EAE2D9;
+    border: .3em solid #EAE2D9;
+    border-radius: 10em;
+    padding: 0px 2em 0em 2em;
+}
+
+.discord-banner img {
+    width: 2em;
+    margin-left: .6em;
+}
+
+.discord-banner h4 {
+    font-size: .9em;
     text-transform: uppercase;
 }
