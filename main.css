@@ -247,3 +247,18 @@ table.minimalistBlack tfoot td {
     font-size: .9em;
     text-transform: uppercase;
 }
+
+/* media query para mobile  */
+
+@media (max-width: 37em) {
+
+    .banner-text {
+        max-width: unset;
+        max-height: unset;
+        font-size: .7em;
+    }
+
+    .discord-banner {
+        border: none;
+    }
+}
