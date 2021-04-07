@@ -248,6 +248,28 @@ table.minimalistBlack tfoot td {
     text-transform: uppercase;
 }
 
+#comunidades h4 {
+    text-align: center;
+    background: #EAE2D9;
+    color: #18171a;
+    font-size: .7em;
+    font-weight: bold;
+    max-width: 14em;
+    margin: 5.5em auto 0 auto;
+    padding: .5em 3em;
+}
+
+.logos-com-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.logos-com-wrapper img {
+    max-width: 3em;
+    margin: .9em;
+}
+
 /* media query para mobile  */
 
 @media (max-width: 37em) {
