@@ -211,6 +211,7 @@ table.minimalistBlack tfoot td {
     color: #282626;
     padding: .6em 2em;
     max-width: 6em;
+    border-radius: 4px;
 }
 
 .iframe-wrapper {
@@ -257,6 +258,7 @@ table.minimalistBlack tfoot td {
     max-width: 14em;
     margin: 5.5em auto 0 auto;
     padding: .5em 3em;
+    border-radius: 4px;
 }
 
 .logos-com-wrapper {
