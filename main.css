@@ -169,7 +169,8 @@ table {
     margin-bottom: 1em;
 }
 
-table a, table a:visited {
+table a,
+table a:visited {
     color: #eae2d9;
     text-decoration: none;
     background: #ea5532;
@@ -252,7 +253,7 @@ table.minimalistBlack tfoot td {
     min-width: 10em;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .youtube {
@@ -325,25 +326,29 @@ table.minimalistBlack tfoot td {
 
 #install {
     background: #c82763;
-    background-image: url('./assets/img/terminal-dd.png');
-    background-repeat: repeat;
-    background-size: 18em;
-    background-position: 26em .4em;
     max-width: 60em;
     min-height: 10em;
     padding-top: .5em;
 }
 
+
 .installers-title {
+    background-image: url('./assets/img/terminal-dd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 50em;
-    background: #18171a;
     color: #eae2d9;
     font-size: .4em;
-    padding: 1em 3em;
+    padding:4em 3em 0.8em;
     margin: 3em auto;
 }
 
-.install-banner {    
+.installers-title h2 {
+    font-family: monospace;
+    color: #a3dbd7;
+}
+
+.install-banner {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -363,7 +368,7 @@ table.minimalistBlack tfoot td {
 
 /* Seguinos en redes */
 
-.follow-us {    
+.follow-us {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -401,7 +406,7 @@ p.follow {
         border: none;
     }
 
-    .follow-us i {    
-       margin: .6em;
+    .follow-us i {
+        margin: .6em;
     }
 }
