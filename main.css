@@ -325,6 +325,7 @@ table.minimalistBlack tfoot td {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .logos-com-wrapper img {
