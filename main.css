@@ -1,6 +1,12 @@
 /* import open sans font  */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: NotoSansCarian;
+    src: url(./assets/NotoSansCarian-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background: #282626;
@@ -175,6 +181,7 @@ table a, table a:visited {
     background: #ea5532;
     padding: .3em .4em;
     border-radius: 4px;
+    white-space: nowrap;
 }
 
 /* Tabla */
