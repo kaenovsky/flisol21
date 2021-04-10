@@ -401,32 +401,6 @@ p.follow {
 
 /* media query para mobile  */
 
-/* (max-width: 592px) { */
-@media (max-width: 37em) {
-
-    .installers-title {
-        background-image: url("./assets/img/terminal-dd-mobile.png");
-    }
-
-    .banner-text {
-        max-width: unset;
-        max-height: unset;
-        font-size: .7em;
-    }
-
-    #comunidades h4 {
-        margin: 7em auto 0 auto;
-    }
-
-    .discord-banner {
-        border: none;
-    }
-
-    .follow-us i {
-        margin: .6em;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .installers-title {
         background-image: url("./assets/img/terminal-dd-mobile-xs.png");
@@ -435,6 +409,26 @@ p.follow {
 
     .installers-title h2 {
         font-size: 1.4em;
+    }
+
+    #comunidades h4 {
+        margin: 14em auto 0 auto;
+        font-size: .6em;
+        padding: .3em 1.2em;
+    }
+
+    .follow-us i {
+        margin: .6em;
+    }
+
+    .banner-text {
+        max-width: unset;
+        max-height: unset;
+        font-size: .7em;
+    }   
+
+    .discord-banner {
+        border: none;
     }
 }
 
@@ -445,5 +439,9 @@ p.follow {
     }
     .installers-title h2 {
         font-size: 1.4em;
+    }
+
+    .discord-banner {
+        border: none;
     }
 }
