@@ -2,7 +2,7 @@
 Micrositio estático para difundir el evento Flisol CABA.
 ![logoflisol](snapshot.jpg)
 
-[Ver micrositio en GH Pages](https://kaenovsky.github.io/flisol21/index.html)
+[Ver en producción (eventol)](https://ba.flisol.org.ar)
 
 ## Sobre Flisol
 
