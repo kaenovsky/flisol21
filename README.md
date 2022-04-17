@@ -2,7 +2,10 @@
 Micrositio estático para difundir el evento Flisol CABA.
 ![logoflisol](snapshot.jpg)
 
-[Ver en producción (eventol)](https://ba.flisol.org.ar)
+[Ver maqueta del sitio acá - edición pandemia 2021](https://kaenovsky.github.io/flisol21/) 
+
+[2022 update en EventoL](https://caba.flisol.org.ar)
+Este año Flisol caba vuelve a ser presencial :) más info en el link.
 
 ## Sobre Flisol
 
